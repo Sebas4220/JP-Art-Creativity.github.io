@@ -92,11 +92,7 @@ font-size: 48px;
 
 #barra{
 
-border-right: solid #ffffff 0.5px;
-padding: 0%;
-margin: 0%;
-position: relative;
-right: 2em;
+
 }
 
 
@@ -104,4 +100,49 @@ right: 2em;
 
 font-size: 15px;
 color: #ffffff;
+}
+
+
+#Boton1{
+
+background-color: #15cf43;
+width: 100%;
+height: ;
+border: solid #15cf43 1px;
+border-radius: 0.8em;
+color:#080808 ;
+height: 40px;
+}
+
+#Boton2{
+
+background-color: transparent;
+width: 100%;
+height: ;
+border: solid white 1px;
+border-radius: 1em;
+color: white;
+border-radius: 0.8em;
+height: 40px;
+
+}
+
+
+#footer{
+
+
+background-color: #15cf43;
+width: 100%;
+position: relative;
+top: 2.6em;
+font-size: 14.5px;
+}
+
+
+#footer a:hover{
+
+color: #ffffff;
+border-bottom: solid white 1px;
+padding: 0%;
+margin: 0%;
 }
