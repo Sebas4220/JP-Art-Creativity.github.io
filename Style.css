@@ -1,0 +1,107 @@
+
+body{
+background-image: url(./Fondo\ de\ prueba.png);
+background-size: cover;
+}
+
+
+#container{
+font-size: 15px;
+height: 70px;
+}
+
+.dropdown-menu{
+background-color: #15cf43;
+border: none;
+}
+
+#offcanvasNavbarDropdown:focus{
+
+    color: #15cf43;
+    font-size: 18px;
+    padding: 0px ;
+
+
+}
+
+.dropdown-menu li a:hover{
+
+background-color: #080808;
+width: 90%;
+border-top-right-radius: 1em;
+border-bottom-right-radius: 1em;
+color: white;
+
+}
+
+.offcanvas-body li a{
+
+color: white;
+
+
+}
+
+
+.offcanvas-body .nav-link:hover{
+padding: 5.3px;
+color: #15cf43;
+font-size: 18px;
+border-bottom: solid #15cf43 0.5px ;
+}
+
+.offcanvas-body .nav-link:active{
+
+color:none;
+    
+}
+
+.offcanvas-body .nav-link:focus{
+    color: #15cf43;
+
+}
+
+.offcanvas{
+
+background-color: #080808;
+
+}
+
+.navbar-toggler{
+border: none;
+
+}
+
+
+#Contenido1 h1{
+
+color: white;
+font-size: 66.5px;
+border-bottom: solid #ffffff 0.5px ;
+border-bottom-right-radius: initial;
+}
+
+#Contenido1 p{
+
+color: #15cf43;
+font-size: 48px;
+
+
+
+}
+
+
+#barra{
+
+border-right: solid #ffffff 0.5px;
+padding: 0%;
+margin: 0%;
+position: relative;
+right: 2em;
+}
+
+
+#Contenido2 p{
+
+font-size: 15px;
+color: #ffffff;
+}
