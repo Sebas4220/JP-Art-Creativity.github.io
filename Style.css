@@ -1,6 +1,6 @@
 
 body{
-background-image: url(./Fondo\ de\ prueba.png);
+background-image: url(./Fondo\ de\ prueba2.png);
 background-size: cover;
 }
 
@@ -11,13 +11,13 @@ height: 70px;
 }
 
 .dropdown-menu{
-background-color: #15cf43;
+background-color: #a303ff;
 border: none;
 }
 
 #offcanvasNavbarDropdown:focus{
 
-    color: #15cf43;
+    color: #a303ff;
     font-size: 18px;
     padding: 0px ;
 
@@ -44,9 +44,9 @@ color: white;
 
 .offcanvas-body .nav-link:hover{
 padding: 5.3px;
-color: #15cf43;
+color: #a303ff;
 font-size: 18px;
-border-bottom: solid #15cf43 0.5px ;
+border-bottom: solid #a303ff 0.5px ;
 }
 
 .offcanvas-body .nav-link:active{
@@ -56,7 +56,7 @@ color:none;
 }
 
 .offcanvas-body .nav-link:focus{
-    color: #15cf43;
+    color: #a303ff;
 
 }
 
@@ -82,7 +82,7 @@ border-bottom-right-radius: initial;
 
 #Contenido1 p{
 
-color: #15cf43;
+color: #a303ff;
 font-size: 48px;
 
 
@@ -90,10 +90,16 @@ font-size: 48px;
 }
 
 
-#barra{
+#Contenido1 h3{
 
-
+font-size: 23px;
+color: #ffffff;
 }
+
+
+
+
+
 
 
 #Contenido2 p{
@@ -105,12 +111,12 @@ color: #ffffff;
 
 #Boton1{
 
-background-color: #15cf43;
+background-color: #a303ff;
 width: 100%;
 height: ;
-border: solid #15cf43 1px;
+border: solid #a303ff 1px;
 border-radius: 0.8em;
-color:#080808 ;
+color:#ffffff ;
 height: 40px;
 }
 
@@ -128,14 +134,28 @@ height: 40px;
 }
 
 
+
+#causula{
+
+color: #a303ff;
+
+}
+
+#causula .card{
+
+border-radius: 0%;
+
+}
+
+
+
 #footer{
 
 
-background-color: #15cf43;
+background-color: #a303ff;
 width: 100%;
-position: relative;
-top: 2.6em;
-font-size: 14.5px;
+font-size: 12px;
+color: #ffffff;
 }
 
 
