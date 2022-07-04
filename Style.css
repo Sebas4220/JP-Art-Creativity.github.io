@@ -148,6 +148,26 @@ border-radius: 0%;
 }
 
 
+#Clientes h1{
+
+color: #ffffff;
+
+}
+
+
+#Clientes .card{
+
+border-radius: 2em;
+color: #a303ff;
+
+}
+
+
+#Marketing .card{
+
+border-radius: 0%;
+color: #a303ff;
+}
 
 #footer{
 
