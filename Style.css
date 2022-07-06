@@ -1,7 +1,7 @@
 
 body{
-background-image: url(./Fondo\ de\ prueba2.png);
-background-size: cover;
+background-color: #252525;
+width: 100%;
 }
 
 
@@ -75,22 +75,21 @@ border: none;
 #Contenido1 h1{
 
 color: white;
-font-size: 66.5px;
-border-bottom: solid #ffffff 0.5px ;
-border-bottom-right-radius: initial;
+font-size: 40px;
+            
+
 }
 
 #Contenido1 p{
-
-color: #a303ff;
-font-size: 48px;
+color: white;
+font-size: 15px;
 
 
 
 }
 
 
-#Contenido1 h3{
+#Contenido1 h2{
 
 font-size: 23px;
 color: #ffffff;
@@ -109,11 +108,20 @@ color: #ffffff;
 }
 
 
+#Escoge{
+
+    color: #252525;
+
+
+}
+
+
+
+
 #Boton1{
 
 background-color: #a303ff;
 width: 100%;
-height: ;
 border: solid #a303ff 1px;
 border-radius: 0.8em;
 color:#ffffff ;
@@ -124,7 +132,6 @@ height: 40px;
 
 background-color: transparent;
 width: 100%;
-height: ;
 border: solid white 1px;
 border-radius: 1em;
 color: white;
@@ -135,38 +142,115 @@ height: 40px;
 
 
 
-#causula{
+#Planes{
 
-color: #a303ff;
+color: #ffffff;
 
 }
 
-#causula .card{
+#Planes .card{
 
 border-radius: 0%;
 
 }
 
+#Planes .card .card{
 
-#Clientes h1{
+border-radius: 2em;
+background-color: #252525;
+border: none;
+
+}
+
+
+
+
+#boton1{
+
+background-color: none;
+border: solid #252525 3px;
+color: #252525;
+border-radius: 2em;
+width: 80%;
+height: 50px;
+
+}
+
+#boton1:hover{
+
+background-color: #a303ff;
+color: #ffffff;
+border: none;
+
+
+
+}
+
+
+#boton2{
+
+background-color: none;
+border: solid #252525 3px;
+color: #252525;
+border-radius: 2em;
+width: 80%;
+height: 50px;
+
+}
+
+#boton2:hover{
+
+background-color: #a303ff;
+color: #ffffff;
+border: none;
+
+
+
+}
+
+
+#boton3{
+
+background-color: none;
+border: solid #252525 3px;
+color: #252525;
+border-radius: 2em;
+width: 80%;
+height: 50px;
+
+}
+
+#boton3:hover{
+
+background-color: #a303ff;
+color: #ffffff;
+border: none;
+
+
+
+}
+
+
+#DISEÑAMOS-PÁGINAS h1, h4, p{
 
 color: #ffffff;
 
 }
 
 
-#Clientes .card{
 
-border-radius: 2em;
-color: #a303ff;
+#identidad .card{
+width: 100%;
+border-radius: 0%;
+color: white;
 
 }
 
+#identidad .card .card{
 
-#Marketing .card{
+background-color: #252525;
+border-radius: 2em;
 
-border-radius: 0%;
-color: #a303ff;
 }
 
 
