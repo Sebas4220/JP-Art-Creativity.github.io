@@ -1,18 +1,17 @@
-
 body{
+
 background-color: #252525;
-width: 100%;
-}
-
-
-header .container-fluid{
-
-
 
 }
 
 
 
+#card-fondo-1{
+
+background-image: url(./imagenes/FOndo\ 1.png);
+background-size: 100%;
+
+}
 
 #container{
 font-size: 15px;
@@ -27,7 +26,7 @@ position: absolute;
 
 #offcanvasNavbarDropdown:focus{
 
-    color: black;
+    color: #31c7ff;
     font-size: 18px;
     padding: 0px ;
 
@@ -54,9 +53,9 @@ color: white;
 
 .offcanvas-body .nav-link:hover{
 padding: 5.3px;
-color: black;
+color: #31c7ff;
 font-size: 18px;
-border-bottom: solid black 0.5px ;
+border-bottom: solid #31c7ff 0.5px ;
 }
 
 .offcanvas-body .nav-link:active{
@@ -66,7 +65,7 @@ color:none;
 }
 
 .offcanvas-body .nav-link:focus{
-    color: black;
+    color: #31c7ff;
 
 }
 
@@ -81,36 +80,8 @@ border: none;
 
 }
 
-#main .carousel-inner img{
 
-max-height: 85vh;
-object-fit: cover;
-}
-
-
-#carousel{
-
-position: relative;
-
-}
-
-
-#carousel .overlay{
-
-position: absolute;
-top: 0 ;
-bottom: 0 ;
-left: 0 ;
-right: 0 ;
-
-}
-
-
-
-
-
-
-.overlay #Contenido1 h2{
+#Contenido1 h2{
 
 color: #ffffff;
 font-size: 25px;
@@ -118,7 +89,7 @@ font-size: 25px;
 
 }
 
-.overlay #Contenido1 p{
+#Contenido1 p{
 color: #ffffff;
 font-size: 8px;
 
@@ -169,8 +140,9 @@ height: 40px;
 
 #Boton1:hover{
 
-    background-color: #31c7ff;
-    color: #000000;
+background-color: #31c7ff;
+color: #000000;
+
 }
 
 
@@ -188,15 +160,23 @@ height: 40px;
 
 #Boton2:hover{
 
-    background-color: #31c7ff;
+background-color: #31c7ff;
+color: #000000;
+
+}
+
+
+#Planes #Escoge h1, #Planes #Escoge p{
+
     color: #000000;
 
 }
 
 
-#Planes h1, p{
 
-color: #252525;
+#Planes h3, #Planes p, #Planes h1{
+
+color: #ffffff;
 
 }
 
@@ -214,14 +194,18 @@ border: none;
 
 }
 
+#precio h1{
+color: #31c7ff;
+font-size: 70px;
 
+}
 
 
 #boton1{
 
-background-color: none;
-border: solid #252525 3px;
-color: #252525;
+background-color: transparent;
+border: solid #31c7ff 1px;
+color: #31c7ff;
 border-radius: 2em;
 width: 80%;
 height: 50px;
@@ -230,8 +214,8 @@ height: 50px;
 
 #boton1:hover{
 
-background-color: #a303ff;
-color: #ffffff;
+background-color: #31c7ff;
+color: #000000;
 border: none;
 
 
