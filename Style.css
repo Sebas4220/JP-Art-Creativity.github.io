@@ -5,19 +5,29 @@ width: 100%;
 }
 
 
+header .container-fluid{
+
+
+
+}
+
+
+
+
 #container{
 font-size: 15px;
 height: 70px;
 }
 
 .dropdown-menu{
-background-color: #a303ff;
+background-color: #31c7ff;
 border: none;
+position: absolute;
 }
 
 #offcanvasNavbarDropdown:focus{
 
-    color: #a303ff;
+    color: black;
     font-size: 18px;
     padding: 0px ;
 
@@ -44,9 +54,9 @@ color: white;
 
 .offcanvas-body .nav-link:hover{
 padding: 5.3px;
-color: #a303ff;
+color: black;
 font-size: 18px;
-border-bottom: solid #a303ff 0.5px ;
+border-bottom: solid black 0.5px ;
 }
 
 .offcanvas-body .nav-link:active{
@@ -56,13 +66,13 @@ color:none;
 }
 
 .offcanvas-body .nav-link:focus{
-    color: #a303ff;
+    color: black;
 
 }
 
 .offcanvas{
 
-background-color: #080808;
+background-color: #31c7ff;
 
 }
 
@@ -71,18 +81,46 @@ border: none;
 
 }
 
+#main .carousel-inner img{
 
-#Contenido1 h1{
+max-height: 85vh;
+object-fit: cover;
+}
 
-color: white;
-font-size: 40px;
+
+#carousel{
+
+position: relative;
+
+}
+
+
+#carousel .overlay{
+
+position: absolute;
+top: 0 ;
+bottom: 0 ;
+left: 0 ;
+right: 0 ;
+
+}
+
+
+
+
+
+
+.overlay #Contenido1 h2{
+
+color: #ffffff;
+font-size: 25px;
             
 
 }
 
-#Contenido1 p{
-color: white;
-font-size: 15px;
+.overlay #Contenido1 p{
+color: #ffffff;
+font-size: 8px;
 
 
 
@@ -120,31 +158,45 @@ color: #ffffff;
 
 #Boton1{
 
-background-color: #a303ff;
+background-color: #7f8cff;
 width: 100%;
-border: solid #a303ff 1px;
-border-radius: 0.8em;
+border-radius: 1em;
+border: none;
 color:#ffffff ;
 height: 40px;
 }
 
+
+#Boton1:hover{
+
+    background-color: #31c7ff;
+    color: #000000;
+}
+
+
 #Boton2{
 
-background-color: transparent;
+background-color: #00ff40;
+border: none;
 width: 100%;
-border: solid white 1px;
 border-radius: 1em;
-color: white;
-border-radius: 0.8em;
+color: #ffffff;
 height: 40px;
 
 }
 
 
+#Boton2:hover{
 
-#Planes{
+    background-color: #31c7ff;
+    color: #000000;
 
-color: #ffffff;
+}
+
+
+#Planes h1, p{
+
+color: #252525;
 
 }
 
@@ -250,6 +302,13 @@ color: white;
 
 background-color: #252525;
 border-radius: 2em;
+
+}
+
+#identidad .card a p:hover{
+
+color: #a303ff;
+text-decoration: none;
 
 }
 
