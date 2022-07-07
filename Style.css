@@ -371,11 +371,27 @@ left: 3em;
 
 }
 
+
+
+#opciones .card:hover{
+
+position: relative;
+bottom: 1.5em;
+
+}
+
+
+
+
+
+
+
 #contacto .card{
 
 border-radius: 0em;
 
 }
+
 
 
 #contacto h1, #contacto p{
