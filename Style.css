@@ -9,7 +9,7 @@ background-color: #252525;
 #card-fondo-1{
 
 background-image: url(./FOndo\ 1.png);
-background-size: 100%;
+background-size: cover;
 
 }
 
@@ -35,7 +35,7 @@ position: absolute;
 
 .dropdown-menu li a:hover{
 
-background-color: #080808;
+background-color: #252525;
 width: 90%;
 border-top-right-radius: 1em;
 border-bottom-right-radius: 1em;
@@ -71,7 +71,7 @@ color:none;
 
 .offcanvas{
 
-background-color: #31c7ff;
+background-color: #252525;
 
 }
 
@@ -117,10 +117,22 @@ color: #ffffff;
 }
 
 
-#Escoge{
+#Planes #Escoge h1,{
 
     color: #252525;
 
+}
+
+#precio{
+
+    padding: 1em;
+
+}
+
+
+#final{
+
+font-size: 12px;
 
 }
 
@@ -168,7 +180,7 @@ color: #000000;
 
 #Planes #Escoge h1, #Planes #Escoge p{
 
-    color: #000000;
+    color: #252525;
 
 }
 
@@ -179,6 +191,23 @@ color: #000000;
 color: #ffffff;
 
 }
+
+
+#Planes h3{
+
+
+font-size: 40px;
+
+}
+
+
+#Planes h3 p{ 
+
+
+font-size: 13px;
+
+}
+
 
 #Planes .card{
 
@@ -291,7 +320,7 @@ border-radius: 2em;
 
 #identidad .card a p:hover{
 
-color: #a303ff;
+color: #31c7ff;
 text-decoration: none;
 
 }
@@ -319,7 +348,7 @@ left: 3em;
 #footer{
 
 
-background-color: #a303ff;
+background-color: #31c7ff;
 width: 100%;
 font-size: 12px;
 color: #ffffff;
@@ -328,8 +357,8 @@ color: #ffffff;
 
 #footer a:hover{
 
-color: #ffffff;
-border-bottom: solid white 1px;
+color: #252525;
+border-bottom: solid #252525 1px;
 padding: 0%;
 margin: 0%;
 }
