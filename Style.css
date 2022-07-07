@@ -91,7 +91,7 @@ font-size: 25px;
 
 #Contenido1 p{
 color: #ffffff;
-font-size: 8px;
+font-size: 12px;
 
 
 
@@ -117,7 +117,7 @@ color: #ffffff;
 }
 
 
-#Planes #Escoge h1,{
+#Planes #Escoge h1{
 
     color: #252525;
 
@@ -303,6 +303,13 @@ color: #ffffff;
 }
 
 
+#DISEÑAMOS-PÁGINAS h4 i{
+
+font-size: 50px;
+
+}
+
+
 
 #identidad .card{
 width: 100%;
@@ -344,6 +351,46 @@ left: 3em;
     color: #ffffff;
 
 }
+
+
+#opciones h1{
+
+    font-size: 20px;
+
+}
+
+#opciones p{
+
+    font-size: 15px;
+
+}
+
+#opciones h1, #opciones p{
+
+    color: #000000;
+
+}
+
+#contacto .card{
+
+border-radius: 0em;
+
+}
+
+
+#contacto h1, #contacto p{
+
+color: #252525;
+
+
+}
+
+
+
+
+
+
+
 
 #footer{
 
