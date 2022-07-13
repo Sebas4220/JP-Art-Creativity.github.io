@@ -111,17 +111,7 @@ color: #ffffff;
 }
 
 
-#Planes #Escoge h1{
 
-    color: #252525;
-
-}
-
-#precio{
-
-    padding: 1em;
-
-}
 
 
 #final{
@@ -170,6 +160,20 @@ background-color: #31c7ff;
 color: #000000;
 
 }
+
+
+#Planes #Escoge h1{
+
+    color: #252525;
+
+}
+
+#precio{
+
+    padding: 1em;
+
+}
+
 
 
 #Planes #Escoge h1, #Planes #Escoge p{
@@ -351,36 +355,32 @@ left: 3em;
 }
 
 
-#opciones h1{
+#Streamers h1{
 
     font-size: 20px;
 
 }
 
-#opciones p{
+#Streamers p{
 
     font-size: 15px;
 
 }
 
-#opciones h1, #opciones p{
+#Streamers h1, #Streamers p{
 
     color: #000000;
 
 }
 
 
+#Streamers .carousel-item img{
 
-
-
-
-#opciones .card:hover{
-
-position: relative;
-bottom: 1em;
-background: linear-gradient(10deg, #31c7ff, #2eaddc);
+border-radius: 2em;
 
 }
+
+
 
 
 
