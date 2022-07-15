@@ -10,6 +10,7 @@ background-color: #252525;
 
 background-image: url(./FOndo\ 1.png);
 background-size: cover;
+width: 100%;
 
 }
 
@@ -301,6 +302,10 @@ border: none;
 color: #ffffff;
 
 }
+
+
+
+
 
 
 #DISEÑAMOS-PÁGINAS h4 i{
