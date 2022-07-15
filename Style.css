@@ -10,7 +10,6 @@ background-color: #252525;
 
 background-image: url(./FOndo\ 1.png);
 background-size: cover;
-width: 100%;
 
 }
 
@@ -163,136 +162,13 @@ color: #000000;
 }
 
 
-#Planes #Escoge h1{
+#Escoge h1{
 
     color: #252525;
-
-}
-
-#precio{
-
-    padding: 1em;
-
+    font-size: 30px;
 }
 
 
-
-#Planes #Escoge h1, #Planes #Escoge p{
-
-    color: #252525;
-
-}
-
-
-
-#Planes h3, #Planes p, #Planes h1{
-
-color: #ffffff;
-
-}
-
-
-#Planes h3{
-
-
-font-size: 40px;
-
-}
-
-
-#Planes h3 p{ 
-
-
-font-size: 13px;
-
-}
-
-
-#Planes .card{
-
-border-radius: 0%;
-
-}
-
-#Planes .card .card{
-
-border-radius: 2em;
-background-color: #252525;
-border: none;
-
-}
-
-#precio h1{
-color: #31c7ff;
-font-size: 70px;
-
-}
-
-
-#boton1{
-
-background-color: transparent;
-border: solid #31c7ff 1px;
-color: #31c7ff;
-border-radius: 2em;
-width: 80%;
-height: 50px;
-
-}
-
-#boton1:hover{
-
-background-color: #31c7ff;
-color: #000000;
-border: none;
-
-
-
-}
-
-
-#boton2{
-
-background-color: none;
-border: solid #252525 3px;
-color: #252525;
-border-radius: 2em;
-width: 80%;
-height: 50px;
-
-}
-
-#boton2:hover{
-
-background-color: #a303ff;
-color: #ffffff;
-border: none;
-
-
-
-}
-
-
-#boton3{
-
-background-color: none;
-border: solid #252525 3px;
-color: #252525;
-border-radius: 2em;
-width: 80%;
-height: 50px;
-
-}
-
-#boton3:hover{
-
-background-color: #a303ff;
-color: #ffffff;
-border: none;
-
-
-
-}
 
 
 #DISEÑAMOS-PÁGINAS h1, 
@@ -302,10 +178,6 @@ border: none;
 color: #ffffff;
 
 }
-
-
-
-
 
 
 #DISEÑAMOS-PÁGINAS h4 i{
@@ -399,7 +271,7 @@ border-radius: 0em;
 
 #contacto h1, #contacto p{
 
-color: #252525;
+color: #ffffff;
 
 
 }
