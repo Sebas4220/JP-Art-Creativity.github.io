@@ -10,7 +10,7 @@ background-color: #252525;
 
 background-image: url(./FOndo\ Desarrollo\ web.png);
 background-size: cover;
-;
+
 }
 
 #container{
@@ -60,7 +60,7 @@ border-bottom: solid #31c7ff 0.5px ;
 
 .offcanvas-body .nav-link:active{
 
-color:none;
+color: #31c7ff;
     
 }
 
@@ -84,8 +84,8 @@ border: none;
 
 #Titulo{
 
-color: #ffffff
-
+color: #ffffff;
+font-size: 60px;
 }
 
     

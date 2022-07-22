@@ -5,13 +5,12 @@ background-color: #252525;
 }
 
 
-
-#card-fondo-1{
+#card-fondo-1 {
 
 background-image: url(./FOndo\ 1.png);
 background-size: cover;
-
 }
+
 
 #container{
 font-size: 15px;
@@ -60,7 +59,8 @@ border-bottom: solid #31c7ff 0.5px ;
 
 .offcanvas-body .nav-link:active{
 
-color:none;
+    color: #31c7ff;
+
     
 }
 
@@ -72,6 +72,7 @@ color:none;
 .offcanvas{
 
 background-color: #252525;
+
 
 }
 
@@ -163,7 +164,7 @@ font-size: 12px;
 #Boton1{
 
 background-color: #7f8cff;
-width: 100%;
+width: 50%;
 border-radius: 1em;
 border: none;
 color:#ffffff ;
@@ -183,7 +184,7 @@ color: #000000;
 
 background-color: #00ff40;
 border: none;
-width: 100%;
+width: 30%;
 border-radius: 1em;
 color: #ffffff;
 height: 40px;
@@ -291,22 +292,27 @@ left: 3em;
 }
 
 
+#Streamers .container,
+#Streamers .row{
+
+height: 100%;
+
+}
+
+
 #Streamers h1{
 
-font-size: 50px;
 color: #ffffff;
-}
-
-
-
-
-
-#Streamers .carousel-item img{
-
-border-radius: 2em;
+font-size: 70px;
 
 }
 
+
+#Streamers .card{
+
+border-radius: 0%;
+background-color: #252525;
+}
 
 
 #Streamers a button{
@@ -346,6 +352,12 @@ color: #252525;
 }
 
 
+#contacto a button{
+
+    width: 100%;
+
+}
+    
 
 
 

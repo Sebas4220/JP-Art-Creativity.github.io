@@ -10,8 +10,7 @@ body{
     
     background-image: url(./FOndo\ 2.png);
     background-size: cover;
-    
-    }
+}
     
     #container{
     font-size: 15px;
@@ -60,7 +59,8 @@ body{
     
     .offcanvas-body .nav-link:active{
     
-    color:none;
+        color: #31c7ff;
+
         
     }
     
@@ -83,7 +83,8 @@ body{
 
 #Titulo{
 
-color: #ffffff
+color: #ffffff;
+font-size: 60px;
 
 }
 
