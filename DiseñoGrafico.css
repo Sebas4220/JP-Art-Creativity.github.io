@@ -10,6 +10,7 @@ body{
     
     background-image: url(./FOndo\ 2.png);
     background-size: cover;
+    ;
 }
     
     #container{
@@ -84,7 +85,7 @@ body{
 #Titulo{
 
 color: #ffffff;
-font-size: 60px;
+font-size: 40px;
 
 }
 
